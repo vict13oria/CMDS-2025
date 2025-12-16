@@ -13,7 +13,6 @@ public class ListUtilsTest {
     public void testDeleteKthElement() {
         List<String> list = new ArrayList<>(Arrays.asList("a", "b", "c", "d"));
 
-        // Delete element at index 2 ("c")
         ListUtils.deleteKthElement(list, 2);
 
         List<String> expected = Arrays.asList("a", "b", "d");
